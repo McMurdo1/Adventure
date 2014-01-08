@@ -21,6 +21,10 @@
 		AA4B9548187DD80C00B178B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4B952A187DD80C00B178B2 /* UIKit.framework */; };
 		AA4B9550187DD80C00B178B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA4B954E187DD80C00B178B2 /* InfoPlist.strings */; };
 		AA4B9552187DD80C00B178B2 /* AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4B9551187DD80C00B178B2 /* AdventureTests.m */; };
+		AA4B955E187DDB9200B178B2 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4B955D187DDB9200B178B2 /* CheckMate.framework */; };
+		AA4B9561187DEF7800B178B2 /* small_maggie_hat_wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA4B955F187DEF7800B178B2 /* small_maggie_hat_wide.jpg */; };
+		AA4B9562187DEF7800B178B2 /* 6226569002_bd2d7128a5_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA4B9560187DEF7800B178B2 /* 6226569002_bd2d7128a5_z.jpg */; };
+		AA4B9565187DF20A00B178B2 /* RiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4B9564187DF20A00B178B2 /* RiddleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		AA4B954D187DD80C00B178B2 /* AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureTests-Info.plist"; sourceTree = "<group>"; };
 		AA4B954F187DD80C00B178B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA4B9551187DD80C00B178B2 /* AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureTests.m; sourceTree = "<group>"; };
+		AA4B955D187DDB9200B178B2 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
+		AA4B955F187DEF7800B178B2 /* small_maggie_hat_wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = small_maggie_hat_wide.jpg; path = ../../../../../Desktop/small_maggie_hat_wide.jpg; sourceTree = "<group>"; };
+		AA4B9560187DEF7800B178B2 /* 6226569002_bd2d7128a5_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6226569002_bd2d7128a5_z.jpg; path = ../../../../../Desktop/6226569002_bd2d7128a5_z.jpg; sourceTree = "<group>"; };
+		AA4B9563187DF20A00B178B2 /* RiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiddleViewController.h; sourceTree = "<group>"; };
+		AA4B9564187DF20A00B178B2 /* RiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiddleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4B955E187DDB9200B178B2 /* CheckMate.framework in Frameworks */,
 				AA4B9529187DD80C00B178B2 /* CoreGraphics.framework in Frameworks */,
 				AA4B952B187DD80C00B178B2 /* UIKit.framework in Frameworks */,
 				AA4B9527187DD80C00B178B2 /* Foundation.framework in Frameworks */,
@@ -101,6 +111,7 @@
 		AA4B9525187DD80C00B178B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA4B955D187DDB9200B178B2 /* CheckMate.framework */,
 				AA4B9526187DD80C00B178B2 /* Foundation.framework */,
 				AA4B9528187DD80C00B178B2 /* CoreGraphics.framework */,
 				AA4B952A187DD80C00B178B2 /* UIKit.framework */,
@@ -115,6 +126,8 @@
 				AA4B9535187DD80C00B178B2 /* AppDelegate.h */,
 				AA4B9536187DD80C00B178B2 /* AppDelegate.m */,
 				AA4B9538187DD80C00B178B2 /* Main.storyboard */,
+				AA4B9563187DF20A00B178B2 /* RiddleViewController.h */,
+				AA4B9564187DF20A00B178B2 /* RiddleViewController.m */,
 				AA4B953B187DD80C00B178B2 /* ViewController.h */,
 				AA4B953C187DD80C00B178B2 /* ViewController.m */,
 				AA4B953E187DD80C00B178B2 /* Images.xcassets */,
@@ -126,6 +139,8 @@
 		AA4B952D187DD80C00B178B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA4B955F187DEF7800B178B2 /* small_maggie_hat_wide.jpg */,
+				AA4B9560187DEF7800B178B2 /* 6226569002_bd2d7128a5_z.jpg */,
 				AA4B952E187DD80C00B178B2 /* Adventure-Info.plist */,
 				AA4B952F187DD80C00B178B2 /* InfoPlist.strings */,
 				AA4B9532187DD80C00B178B2 /* main.m */,
@@ -228,8 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4B9562187DEF7800B178B2 /* 6226569002_bd2d7128a5_z.jpg in Resources */,
 				AA4B953F187DD80C00B178B2 /* Images.xcassets in Resources */,
 				AA4B9531187DD80C00B178B2 /* InfoPlist.strings in Resources */,
+				AA4B9561187DEF7800B178B2 /* small_maggie_hat_wide.jpg in Resources */,
 				AA4B953A187DD80C00B178B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4B9565187DF20A00B178B2 /* RiddleViewController.m in Sources */,
 				AA4B953D187DD80C00B178B2 /* ViewController.m in Sources */,
 				AA4B9537187DD80C00B178B2 /* AppDelegate.m in Sources */,
 				AA4B9533187DD80C00B178B2 /* main.m in Sources */,
@@ -378,6 +396,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gule/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adventure/Adventure-Prefix.pch";
 				INFOPLIST_FILE = "Adventure/Adventure-Info.plist";
@@ -391,6 +413,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gule/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Adventure/Adventure-Prefix.pch";
 				INFOPLIST_FILE = "Adventure/Adventure-Info.plist";
